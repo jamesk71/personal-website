@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Autonomous Car | James Kane</title>
+<meta name="description" content="A miniature autonomous car built with an Arduino Uno, IR sensors, and a custom C++ control loop for a university competition.">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -11,15 +12,33 @@
   <div data-component="header" data-base="../" data-active="portfolio"></div>
 
   <main class="page-content">
-    <section class="project-detail">
-      <a class="back-link" href="../portfolio.html">&larr; Back to Portfolio</a>
-      <h1>Autonomous Car</h1>
-      <p>Full project write-up coming soon.</p>
+    <section class="project-detail-main">
+
+      <div class="project-layout">
+        <div class="project-text">
+          <h3 class="project-title">Autonomous Car</h3>
+          <div class="project-description">
+            <p>In this project, I created a miniature autonomous car to compete in a university organized competition. I did this by using an Arduino Uno, HW870 IR Sensors, DC Motors, L298N Motor Driver, and AA Batteries.</p>
+            <p>I programmed the control logic on the Arduino using C++ to optimize wheel speed and course correction. My efforts resulted in the car being able to navigate a 9-foot linear course in 4.9 seconds, a top 5 score in a competition of ~140 students.</p>
+          </div>
+        </div>
+
+        <div class="project-images">
+          <div class="image-stage" data-count="1">
+            <img class="stage-img" src="../images/Autonomous_Car_Thumbnail.jpeg" alt="Autonomous car built on a 2WD chassis with a custom motor controller and sensor board">
+          </div>
+        </div>
+      </div>
+
+      <section class="project-nav" data-component="project-nav" data-base="../" data-current="autonomous-car"></section>
+
     </section>
   </main>
 
   <div data-component="footer" data-base="../"></div>
 
+  <script src="../js/projects-data.js"></script>
   <script src="../js/components.js"></script>
+  <script src="../js/project-detail.js"></script>
 </body>
 </html>
