@@ -10,7 +10,7 @@
 
    - data-base   : relative path back to the site root
                    ("./" from a root page, "../" from /projects/*.html)
-   - data-active : "home" | "portfolio" — highlights the matching nav link
+   - data-active : "home" | "portfolio" | "resume" — highlights the matching nav link
    ========================================================= */
 
 (function () {
@@ -28,6 +28,7 @@
       '<nav class="nav">' +
       '<a href="' + base + 'index.html" data-page="home">Home</a>' +
       '<a href="' + base + 'portfolio.html" data-page="portfolio">Portfolio</a>' +
+      '<a href="' + base + 'resume.html" data-page="resume">Resume</a>' +
       '</nav>' +
       '</div>'
     );
